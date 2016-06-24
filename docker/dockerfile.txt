@@ -1,0 +1,14 @@
+# our base image
+FROM alpine:latest
+
+# Install Java JDK and MAVEN
+
+# Copy Web application components required for the app to run
+# COPY ./sampleWebApp/
+
+# tell the port number the container should expose
+# EXPOSE 5000
+
+# run the application
+# FROM jboss/wildfly
+#  ADD sampleWebApp/target/sampleWebApp.war /opt/jboss/wildfly/standalone/deployments/
